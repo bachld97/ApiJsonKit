@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ApiJsonKit_Example' do
+  pod 'ApiJsonKit', :path => '../'
+
+  target 'ApiJsonKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
