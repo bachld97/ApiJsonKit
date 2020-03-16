@@ -15,10 +15,10 @@ import Foundation
  * DecodableArray ignores items which cannot be decoded
  * and continues to decode other items
  */
-class DecodableArray<Element: Decodable>: Decodable {
+public class DecodableArray<Element: Decodable>: Decodable {
     let elements: [Element]
     
-    required init(from decoder: Decoder) throws {
+    required public init(from decoder: Decoder) throws {
         do {
             let container = try decoder.singleValueContainer()
             let values = try container.decode([OptionalDecodable<Element>].self)

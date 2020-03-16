@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import ApiJsonKit
+
+struct TestStruct: Decodable {
+    let testString: DecodableString
+    let testOptional: OptionalDecodable<String>?
+    let testArray: DecodableArray<String>
+}
 
 class ViewController: UIViewController {
 

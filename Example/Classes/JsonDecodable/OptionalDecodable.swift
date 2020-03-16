@@ -15,11 +15,11 @@ import Foundation
  * OptionalDecodable helps cover cases where CodingKey for Optional field
  * is present, but the data is not decodable.
  */
-class OptionalDecodable<Element: Decodable>: Decodable {
+public class OptionalDecodable<Element: Decodable>: Decodable {
 
     let value: Element?
     
-    required init(from decoder: Decoder) throws {
+    required public init(from decoder: Decoder) throws {
         do {
             let container = try decoder.singleValueContainer()
             self.value = try container.decode(Element.self)
