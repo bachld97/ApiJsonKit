@@ -1,0 +1,16 @@
+PODS:
+  - ApiJsonKit (0.1.0)
+
+DEPENDENCIES:
+  - ApiJsonKit (from `../`)
+
+EXTERNAL SOURCES:
+  ApiJsonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApiJsonKit: d75bfb27ee3dfe5a2549c9cd599d00f737bfb455
+
+PODFILE CHECKSUM: dca09254200c5e609587cafd4a9bfb58b06fcd62
+
+COCOAPODS: 1.9.1

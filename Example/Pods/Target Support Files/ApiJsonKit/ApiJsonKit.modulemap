@@ -1,0 +1,6 @@
+framework module ApiJsonKit {
+  umbrella header "ApiJsonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
