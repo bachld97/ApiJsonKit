@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ApiJsonKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ApiJsonKit.'
+  s.summary          = 'A tool to simplify network calls and json decoding.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+
+  Networking and decoding JSON are repetitive tasks. This framework provide tested implementation
+  to simplify those tasks. It includes wrapper struct and/or classes around the Decodable protocol
+  and URLSession.
+  
+  DESC
 
   s.homepage         = 'https://github.com/Bach Le/ApiJsonKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
