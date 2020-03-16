@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApiJsonKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A tool to simplify network calls and json decoding.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   
   DESC
 
-  s.homepage         = 'https://github.com/Bach Le/ApiJsonKit'
+  s.homepage         = 'https://github.com/bachld97/ApiJsonKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bach Le' => 'ldbach97@gmail.com' }
